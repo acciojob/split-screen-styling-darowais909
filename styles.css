@@ -1,1 +1,38 @@
-/*  your css code here. If applicable */
+#main{
+	display:grid;
+	grid-template-columns:1fr 4fr 1fr;
+	grid-template-rows: 1fr 4fr 1fr;
+}
+#Nav{
+	grid-row:1/7;
+	background-color:#D7E8D4;
+	padding:1em;
+	
+}
+#Header{
+	grid-column:2/7;
+	background-color:yellowgreen;
+	padding:1em;
+	
+}
+#Article{
+	grid-row:2/4;
+	grid-column:2/4;
+	padding:1em;
+	min-height:60vh;
+	
+}
+#Aside{
+	grid-column:6/7;
+	grid-row:2/7;
+	background-color:rgb(245,245,220);
+	padding:1em;
+	
+}
+#Footer{
+	grid-row:6/7;
+	grid-column:2/7;
+	background-color:yellowgreen;
+	padding:1em;
+	
+}
